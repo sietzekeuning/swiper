@@ -9,5 +9,5 @@ module.exports = {
     '../../src/svelte/**/*.js',
     '../../src/*-svelte.js',
   ],
-  presets: [['@babel/preset-env', { modules: false, loose: true }]],
+  presets: [['@babel/preset-env', { modules: 'commonjs', loose: true }]],
 };
